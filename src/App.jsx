@@ -19,7 +19,7 @@ function App() {
       <div className="flexbox">
         <div className="trophy"><img src={trophy} alt=""  /></div>
         <div className="trophyContent">
-          <h3>C.R.I PUMPS WINS THE NATIONAL ENERGY CONSERVATION AWARD 2018 for the 4th time.</h3>
+          <p style={{fontWeight: "800"}}>C.R.I PUMPS WINS THE NATIONAL ENERGY CONSERVATION AWARD 2018 for the 4th time.</p>
           <ul>
             <li>C.R.I's energy efficient products are well recognized by various Government Institutions, as trustworthy products for various projects across the globe to save energy.</li>
             <li>C.R.I is the highest contribution in the country for the projects of EESL (Energy Efficiency Services Limited) to replace the old inefficient pumps with 5 Star rated energy efficient smart pumps with IoT enabled control panel.</li>
@@ -55,9 +55,9 @@ function App() {
         </div>
       </div>
       <div className="footer flexbox">
-        <div><img src={PhoneIcon} alt="" />Troll free <strong>1800 200 1234</strong></div>
-        <div><img src={facebook} alt="" />www.facebook.com/cripumps</div>
-        <div><img src={website} alt="" />www.crigroups.com</div>
+        <div style={{color: 'white'}}><img src={PhoneIcon} alt="" />Troll free <strong  style={{color: 'white'}}>1800 200 1234</strong></div>
+        <div style={{color: 'white'}}><img src={facebook} alt="" />www.facebook.com/cripumps</div>
+        <div style={{color: 'white'}}><img src={website} alt="" />www.crigroups.com</div>
       </div>
       
     </>
